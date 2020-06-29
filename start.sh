@@ -39,6 +39,7 @@ aws ec2 run-instances \
     --key-name=${keypair_name} \
     --security-groups=security-group-ssh-http \
     --iam-instance-profile Name=s3-full-access \
+    --block-device-mappings file://block-device.json \
     --region us-east-1 \
     --output json | tee my-ec2-rstudio.json
 
