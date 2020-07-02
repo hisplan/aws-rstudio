@@ -1,6 +1,6 @@
 # aws-rstudio
 
-Running RStudio on AWS.
+Running RStudio Server on AWS.
 
 ## Requirements
 
