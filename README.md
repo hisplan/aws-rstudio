@@ -13,10 +13,12 @@ Note that the scripts are:
 - only tested on Mac (probably not working well for Windows and others).
 - designed to run with the Dana Pe'er Lab AWS environment.
 
-## How to Run
+## How to Set Up
+
+The following command "creates" a new EC2 instance with RStudio Server:
 
 ```bash
-./start.sh -k dpeerlab-chunj -i t2.medium
+./create.sh -k dpeerlab-chunj -i t2.medium
 ```
 
 where
